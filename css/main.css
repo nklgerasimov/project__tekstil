@@ -1,0 +1,37 @@
+
+@import url('./reset.css');
+
+.container {
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    width: 1500px;
+    padding-top: 15px;
+    padding-left: 80px;
+    padding-right: 145px;
+}
+
+.header {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* display: inline-block; */
+}
+
+.nav-list {
+    padding-left: 79px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 29px;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-list__item {
+    color: black;
+    /* list-style: none; */
+}
+
+.nav-list__phone {
+    margin-left: auto;
+    color: black;
+}
