@@ -1,5 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;600;700&display=swap');
 @import url('./reset.css');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .container {
     margin: 0 auto;
@@ -12,6 +17,9 @@
 
 .header {
     display: flex;
+    font-weight: 600;;
+    font-size: 14px;
+    line-height: 17px;
     /* justify-content: space-between; */
     /* align-items: center; */
     /* display: inline-block; */
@@ -27,11 +35,61 @@
 }
 
 .nav-list__item {
-    color: black;
+    color: #363739;
     /* list-style: none; */
 }
 
 .nav-list__phone {
     margin-left: auto;
-    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;;
+    font-size: 21px;
+    line-height: 25px;
+    color: #7c1414;
+}
+
+.one-page__wrapper {
+    width: 521px;
+    margin-top: 106px;
+    color: #363739;
+}
+
+.title {
+    font-weight: 800;;
+    font-size: 37px;
+    line-height: 1.24;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    margin-top: 33px;
+    font-weight: 400;;
+    font-size: 21px;
+    line-height: 1.24;
+}
+
+.picture-simple {
+    margin-top: 74px;
+    display: flex;
+    column-gap: 69px;
+}
+
+.btn {
+    margin-top: 68px;
+    width: 300px;
+    height: 67px;
+
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+    background: linear-gradient(90deg, #0AADF0 3.63%, #BDB7FE 100%);
+    box-shadow: 0px 4px 9px 2px rgba(89, 122, 173, 0.7);
+    border-radius: 100px;
+}
+
+.btn:active {
+    /* background: #ffe9e9; */
+    transform: translate(0em, 0.1em);
 }
