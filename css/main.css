@@ -330,10 +330,16 @@ body {
 }
 
 .advantages {
-    margin: 113px 80px 93px 80px;
+    margin: 113px 0px 93px 0px;
+}
+
+.advantages-cards {
+    display: flex;
+    flex-direction: row;
 }
 
 .advantages__title {
+    margin-bottom: 77px;
     font-weight: 400;
     font-size: 37px;
     line-height: 1.24;
@@ -345,13 +351,48 @@ body {
 }
 
 .advantages-card {
+    width: 256px;
+    height: 280px;
+    border: 1px solid #D6D6D6;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.advantages__img {
+    height: 136px;
+    display: flex;
+    align-items: center;
+    /* margin-top: 39px;
+    margin-bottom: 39px; */
 }
 
 .advantages-card__title {
+    margin-bottom: 18px;
 
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 0.86;
+/* identical to box height, or 86% */
+
+    text-align: center;
+
+    color: #363739;
 }
 
 .advantages-card__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    /* or 129% */
 
+    text-align: center;
+
+    color: #363739;
+}
+
+.slider {
+    height: 313px;
 }
