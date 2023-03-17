@@ -396,3 +396,97 @@ body {
 .slider {
     height: 313px;
 }
+
+.company-info {
+
+}
+
+.company-info__title {
+    margin-bottom: 113px;
+
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 1.24;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #363739;
+}
+
+.company-info__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-info__description {
+    /* width: 542px; */
+    flex-basis: 42%;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.35;
+
+    color: #363739;
+}
+
+.company-info__description p + p {
+    margin-top: 20px;
+}
+
+.company-info__avi {
+    /* width: 640px; */
+    margin-left: 98px;
+}
+
+.wb {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    column-gap: 254px;
+}
+
+.wb__otzovi {
+
+}
+
+.wb__img {
+    height: 127px;
+    display: flex;
+    column-gap: 33px;
+}
+
+.wb__img img {
+    border-radius: 20px;
+}
+
+.zakaz {
+    padding-top: 79px;
+    min-height: 426px;
+    background: url('../img/zakaz/bg.png'), rgba(255, 255, 255, 0.5) no-repeat;
+    background-size: contain;
+
+    backdrop-filter: blur(3.5px);
+}
+
+.zakaz__title {
+    /* margin-top: 79px; */
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #363739;
+}
+
+.zakaz__subtitle {
+    margin-bottom: 46px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #353535;
+}
