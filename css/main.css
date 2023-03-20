@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     /* border: 1px solid red; */
     width: 1440px;
-    padding-top: 15px;
+    /* padding-top: 15px; */
     padding-left: 80px;
     padding-right: 80px;
     /* display: flex; */
@@ -19,6 +19,7 @@ body {
 
 .container-header {
     padding-right: 145px;
+    padding-top: 15px;
 }
 
 .container-buy {
@@ -320,7 +321,7 @@ body {
     height: 70px;
 }
 
-.buy p {
+.buy__footnote {
     margin-top: 29px;
     font-weight: 400;
     font-size: 14px;
@@ -395,6 +396,8 @@ body {
 
 .slider {
     height: 313px;
+    cursor: pointer;
+    margin-bottom: 108px;
 }
 
 .company-info {
@@ -466,26 +469,92 @@ body {
     background-size: contain;
 
     backdrop-filter: blur(3.5px);
+
 }
 
 .zakaz__title {
     /* margin-top: 79px; */
-    margin-bottom: 32px;
-    font-weight: 400;
+    /* margin-bottom: 32px; */
+    /* font-weight: 400;
     font-size: 35px;
-    line-height: 43px;
+    line-height: 43px; */
     
-    text-align: center;
-    text-transform: uppercase;
+    /* text-align: center;
+    text-transform: uppercase; */
     
     color: #363739;
 }
 
 .zakaz__subtitle {
-    margin-bottom: 46px;
+    /* margin-bottom: 46px;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
+    text-align: center; */
+
+    color: #353535;
+}
+
+.zakaz__footnote {
+    color: #353535;
+    margin-top: 40px;
+    padding-bottom: 0; */
+}
+
+.footer {
+    margin-top: 38px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 100px;
+
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #353535;
+}
+
+.logo img {
+    width: 292px;
+    height: 40px;
+
+    margin-bottom: 13px;
+}
+
+.location {
+    position: relative;
+    /* display: flex; */
+}
+
+.location img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.location p {
+    margin-left: 40px;
+}
+
+.mail {
+    display: flex;
+    column-gap: 17px;
+}
+
+.phone {
+    display: flex;
+    column-gap: 18px;
+}
+
+.footer__footnote {
+    margin-top: 31px;
+    margin-bottom: 31px;
+    
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
     text-align: center;
 
     color: #353535;

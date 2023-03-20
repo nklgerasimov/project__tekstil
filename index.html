@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
     <title>project_tekstil</title>
 </head>
 <body>
@@ -231,18 +241,17 @@
     <div class="container container-buy">
         <section class="buy">
             <div class="buy__title">Как <strong>купить?</strong></div>
-            <div class="buy__subtitle">У меня есть тех задание, нужен расчет стоимости</div>
+            <div class="buy__subtitle">
+                <p>У меня есть тех задание, нужен расчет стоимости</p>
+            </div>
             <form class="leaveRequest" action="">
-                <!-- <button class="search__btn">
-                    <img src="./img/header/search.svg" alt="search">
-                </button> -->
                 <input class="input" type="text" placeholder="Имя">
                 <input class="input" type="tel" placeholder="Телефон">
                 <button class="btn">Отправить</button>
             </form>
-            <!-- <button type="submit"></button>
-            <button type="submit"></button> -->
-            <p>Отправляя заявку вы даете согласие на обработку персональных данных</p>
+            <div class="buy__footnote">
+                <p>Отправляя заявку вы даете согласие на обработку персональных данных</p>
+            </div>
         </section>
     </div>
     <!-- Наши преимущества -->
@@ -315,11 +324,22 @@
     </div>
 
     <!-- Slider -->
-    <div class="container">
+    <div class="container container-buy">
         <div class="slider">
-            <div class="slider-img">
-                <img src="" alt="">
+            <div class="owl-carousel">
+                <img src="./img/img-slider/Rectangle 28.jpg" alt="">
+                <img src="./img/img-slider/Rectangle 29.jpg" alt="">
+                <img src="./img/img-slider/Rectangle 30.jpg" alt="">
+                <img src="./img/img-slider/Rectangle 31.jpg" alt="">
+                <img src="./img/img-slider/Rectangle 28.jpg" alt="">
+                <img src="./img/img-slider/Rectangle 29.jpg" alt="">
+                <img src="./img/img-slider/Rectangle 30.jpg" alt="">
+                <img src="./img/img-slider/Rectangle 31.jpg" alt="">
+                <img src="./img/img-slider/Rectangle 28.jpg" alt="">
             </div>
+            <!-- <div class="slider-img">
+                <img src="" alt="">
+            </div> -->
         </div>
     </div>
     <!-- О нашей компании -->
@@ -367,14 +387,52 @@
     </div>
     <!-- Как сделать заказ -->
     <div class="container container-buy">
-        <div class="zakaz">
-            <div class="zakaz__title">
-                <p>Как <strong>сделать заказ</strong></p>
+        <section class="buy zakaz">
+            <div class="buy__title zakaz__title">Как <strong>сделать заказ?</strong></div>
+            <div class="buy__subtitle zakaz__subtitle">
+                <p>Нужна бесплатная консультация специалиста, 
+                    который<br>поможет составить заявку с учетом пожеланий
+                </p>
             </div>
-            <div class="zakaz__subtitle">
-                <p>Нужна бесплатная консультация специалиста, который<br>поможет составить заявку с учетом пожеланий</p>
+            <form class="leaveRequest" action="">
+                <input class="input" type="text" placeholder="Имя">
+                <input class="input" type="tel" placeholder="Телефон">
+                <button class="btn">Отправить</button>
+            </form>
+            <div class="buy__footnote zakaz__footnote">
+                <p>Отправляя заявку вы даете согласие на обработку персональных данных</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="logo">
+                    <img src="./img/header/logo.svg" alt="logo">
+                    <p>© 2010-2019 «Петербургский УЮТ»</p>
+                </div>
+                <div class="location">
+                    <img src="./img/footer-icon/location.svg" alt="location">
+                    <p>г. Санкт-Петербург,<br> 
+                        Митрофаньевское ш. д 29 к 3</p>
+                </div>
+                <div class="mail">
+                    <img src="./img/footer-icon/mail.svg" alt="mail">
+                    <p>est.spb@mail.ru</p>
+                </div>
+                <div class="phone">
+                    <img src="./img/footer-icon/phone.svg" alt="phone">
+                    <p>+7 (812) 424-33-29</p>
+                </div>
+            </div>
+            <div class="footer__footnote">
+                <p>Производство и продажа текстильной продукции по всей территории России и СНГ
+                    <br>Политика конфиденциальности</p>
             </div>
         </div>
-    </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
